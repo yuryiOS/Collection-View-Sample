@@ -1,6 +1,6 @@
 # Collection-View-Sample
 
-1. При использовании UICollectionView в горизонтальном виде, невозможно гарантировать  минимальное расстояние между ячейками в одной секции:
+При использовании UICollectionView в горизонтальном виде, невозможно гарантировать  минимальное расстояние между ячейками в одной секции:
 For a horizontally scrolling grid, this value represents the minimum spacing between items in the same column. This spacing is used to compute how many items can fit in a single line, but after the number of items is determined, the actual spacing may possibly be adjusted upward.
 
 Поэтому соблюсти одновременно следующие 2 условия задачи не является возможным:
